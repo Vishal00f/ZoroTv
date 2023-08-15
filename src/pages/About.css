@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&family=Ysabeau+SC:wght@600&display=swap');
+.About-section{
+  background:#181818;
+    min-height:400px;
+    width:100%;
+    border-top:1px solid black;
+    position: relative;
+}
+.container{
+    display: flex;
+    display: block;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color:whitesmoke;
+    text-shadow: 2px 2px black;
+    word-spacing: 0.5rem;
+}
+/* h2{
+    color: whitesmoke;
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ysabeau SC', sans-serif;
+    text-shadow:2px whitesmoke;
+    font-weight: bolder;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+/* body{
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh
+} */
+h1{
+    color: #484848;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    margin-top: 2rem;
+  }
+  h1 span{
+    transition: .5s linear
+  }
+  h1:hover span:nth-child(1){
+    margin-right: 5px
+  }
+  h1:hover span:nth-child(1):after{
+    content: "We are";
+  }
+  h1:hover span:nth-child(2){
+    margin-left: 30px
+  }
+  h1:hover span{
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px #fff;
+  }
+  /*made with ❤, by qpi65*/
+  
+  h3{
+    margin-top: 2rem;
+    color: whitesmoke;
+  }
+  
+.fa{
+  font-size: 1.5rem;
+  margin:1rem;
+  cursor: pointer;
+}
+.fa-linkedin:hover{
+  color: #0077B5;
+}
+.fa-instagram:hover{
+  background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-telegram:hover{
+  color:#0088cc;
+}
+.fa-twitter:hover{
+  color:#1DA1F2;
+}
+.fa-whatsapp:hover{
+  color:#25D366;
+}
+.searchbar{
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  width: 400px;
+  margin-right: 1rem;
+  border-radius: 1rem;
+  height:40px;
+  color: black;
+  font-size: 1rem;
+  outline: 1px solid white;
+  font-weight: 100;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ysabeau SC', sans-serif;
+}
+
+.fa-solid{
+  color:whitesmoke;
+  
+}
+.fa-solid:hover{
+  transition: 0.3 sec ease-out;
+  scale: 1.2;
+
+}
+.footer{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  color: whitesmoke;
+}
+.fa-copyright{
+  margin-top: 2px;
+  margin-right: 0.5rem;
+}
+@media (max-width:650px){
+  .searchbar{
+    width: 320px;
+  }
+  h1{
+    font-size: 35px;
+  }
+}
+@media (max-width:500px){
+  .About-section{
+    position: absolute;
+    top: 350%;
+  }
+}

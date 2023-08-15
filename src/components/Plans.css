@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Ubuntu:wght@500&family=Ysabeau+SC:wght@600&display=swap');
+.plan-section{
+    background-color: #E8E8E8;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 3rem;
+    position: relative;
+    
+
+}
+
+.plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 100px;
+
+}
+.Plan-title{
+    font-size: 3rem;
+    width: 95%;
+    
+}
+.plan-heading{
+    font-size:1.5rem;
+    
+}
+.pricing-card{
+    background-color: #181818;
+    width: 320px;
+    height: 280px;
+    margin: auto;
+   
+    border-radius: 12px;
+}
+.button-section{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.plan-btn{
+    
+    font-size: 15px;
+    letter-spacing: 1px;
+    width: 90%;
+    margin:10px;
+    height: 40px;
+    border-radius:3px ;
+    background-color:whitesmoke;
+    color: #181818;
+    border: 2px solid whitesmoke;
+    outline: 2px solid whitesmoke;
+    margin-top:30px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.plan-btn:hover{
+    transition: 0.3s ease-out;
+    scale:1.05;
+    background-color: whitesmoke;
+    color: #181818;
+    border: 2px solid #181818;
+    outline: 2px solid #181818;
+}
+.container{
+    display: flex;
+}
+.name-section{
+    width: 100%;
+    height: 60px;
+    background: #212529;
+    color: whitesmoke;
+    font-size: 2rem;
+    padding-top: 8px;
+    font-family: 'Lilita One', cursive; 
+    font-family: 'Ubuntu', sans-serif; 
+    font-family: 'Ysabeau SC', sans-serif;
+    border-radius: inherit;
+    border-radius:12px;
+    font-weight: 900;
+}
+.price{
+    color: whitesmoke;
+    font-size: 20px;
+    margin: auto;
+    line-height: 2rem;
+    /* border-bottom: 0.2px solid gray; */
+    margin-top: 10px;
+    margin-bottom:auto;
+}
+.plan-btn:active{
+    color: whitesmoke;
+    background: #181818;
+}
+.pricing-card:hover{
+    transition: 0.3s ease-out;
+    scale: 1.1;
+}
+@media (max-width:1080px){
+    .plan-section{
+        height: 120vh;
+    }
+    .plans{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 1rem;
+        background-size:inherit;
+    }
+    .Plan-title{
+        font-size: 2rem;
+    }
+    .plan-heading{
+        font-size: 1rem;
+    }
+    .pricing-card{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:900px){
+    .pricing-card{
+        width:280px ;
+        height: 280px;
+    }
+}
+@media (max-width:650px){
+    .plan-section{
+        height: auto;
+    }
+    .plans{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 1rem;
+        /* background-size:inherit; */
+        
+    }
+    .pricing-card{
+        margin-top: 1rem;
+        width:320px;
+        height: 280px;
+    }
+}
+@media (max-width:500px){
+    .plan-section{
+        position: absolute;
+        top: 200%;
+    }
+}
